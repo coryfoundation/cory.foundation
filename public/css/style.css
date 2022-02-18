@@ -1,0 +1,25 @@
+@import url("bulma.min.css");
+
+.navbar-item img {
+  max-height: 2.2rem;
+}
+
+.is-fullheight-with-navbar {
+  background-image: url(/img/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.is-fullheight-with-navbar * {
+  color: white;
+}
+
+.is-fullheight-with-navbar .hero-body {
+  -webkit-backdrop-filter: blur(3px) brightness(0.7);
+  backdrop-filter: blur(4px) brightness(0.8);
+}
+
+.navbar {
+  box-shadow: 0 6px 35px rgba(1, 1, 1, 0.2);
+}
